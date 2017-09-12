@@ -8,8 +8,22 @@ def position_taken?(board,index)
     return false
   else
     return true
-
-
   end
+
+  # alternate using ternary like in JS
+  #  (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
+  #      false : true
+
+
+
+  #all together
+  # taken = nil
+  # if (board[index] ==  " " || board[index] == "" || board[index] == nil)
+  #   taken = false
+  # else
+  #   taken = true
+  # end
+  # taken
+
 
 end
